@@ -1,7 +1,7 @@
 name: Build and Deploy
 on: [push]
 jobs:
-    name: build-and-deploy
+    build:
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -25,7 +25,6 @@ jobs:
       - run: yarn run build
         env:
             CI: true
-
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
