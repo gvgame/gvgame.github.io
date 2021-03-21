@@ -1,7 +1,7 @@
 name: Build and Deploy
 on: [push]
 jobs:
-  build-and-deploy:
+    name: build-and-deploy
     runs-on: ubuntu-latest
     defaults:
       run:
