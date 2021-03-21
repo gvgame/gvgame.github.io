@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const black = \"rgba(0, 0, 0, 1)\";\nexport const white = \"rgba(255,255,255,1)\";\nexport const error = \"#DB3400\";\nexport const warning = \"#FFBF00\";\nexport const info = \"#838383\";\nexport const success = \"#7DBF00\";","map":null,"metadata":{},"sourceType":"module"}
