@@ -1,1 +1,0 @@
-{"ast":null,"code":"import { withStyles } from \"@material-ui/core/styles\";\nimport Divider from \"@material-ui/core/Divider\";\nconst StyledDivider = withStyles(theme => ({\n  root: {\n    backgroundColor: theme.palette.common.black,\n    width: 2\n  }\n}))(Divider);\nexport default StyledDivider;","map":null,"metadata":{},"sourceType":"module"}
