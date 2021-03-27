@@ -2,7 +2,5 @@ const isProd = process.env.NODE_ENV === "production";
 
 module.exports = {
   // Use the CDN in production and localhost for development.
-  assetPrefix: isProd
-    ? "https://cdn.statically.io/gh/gvgame/gvgame.github.io/gh-pages/"
-    : "",
+  assetPrefix: isProd ? "/gvga.me/" : "",
 };
